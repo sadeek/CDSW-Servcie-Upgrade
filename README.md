@@ -21,11 +21,11 @@ We decided to disable these McAfee end point services, it so it doesn't interrup
 
 Please stop below macfee endpint service and restart all CDSW service
 
-systemctl disable isecespd.service
-systemctl disable isectpd.service
-systemctl disable mfefmpd.service
+#systemctl disable isecespd.service
+#systemctl disable isectpd.service
+#systemctl disable mfefmpd.service
 
 
 Once you stop these services CDSW service will start operating normally, You can login to CDSW Console and test/try to run some test code.
 Run below to verify
-kubectl get pods
+#kubectl get pods
